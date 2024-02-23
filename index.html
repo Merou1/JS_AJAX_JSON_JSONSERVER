@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax data sending</title>
+    <link rel="stylesheet" href="style.css/style.css">
+    <script src="main.js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Ajax data sending
+        </h1>
+    </header>
+    <main>
+        <article>
+            <h2>
+                New Question:
+            </h2>
+            <div class="form">
+                <input id="questionInput"  placeholder="question">
+                <span id="errorQuestionInput" class="errorInput"></span>
+                <select id="answerInput">
+                    <option value="true">true</option>
+                    <option value="false">false</option>
+                </select>
+                <div class="controls">
+                    <button id="resetBtn" class="reset">reset</button>
+                    <button id="submitBtn" class="submit">submit</button>
+                </div>
+            </div>
+        </article>
+        <article>
+            <h2>
+                Questions (<span id="countQuestionsSpan">0</span>)
+            </h2>
+            <div id="questionsDiv" class="questions">
+                <!--
+                <div class="question false">
+                    <span class="idQuestion">1</span>
+                    <div class="content">is Earth flat ?</div>
+                    <button class="delete">Delete</button>
+                    <button class="switch">Switch</button>
+                </div>
+                <div class="question true">
+                    <span class="idQuestion">2</span>
+                    <div class="content">1 + 1 = 2</div>
+                    <button class="delete">Delete</button>
+                    <button
+                    class="switch">Switch</button>
+                </div>
+                -->
+            </div>
+        </article>
+    </main>
+    <footer>
+        AJAX_JSON_SERVER
+    </footer>
+</body>
+
+</html>
